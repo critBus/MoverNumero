@@ -1,0 +1,53 @@
+------------------------------
+9/1/2022 15:43:10
+El tipo 'MoverNumero.LeyenApps.MoverNumero.EA_MoverNumero' del ensamblado 'MoverNumero, Version=1.0.8044.28293, Culture=neutral, PublicKeyToken=null' no está marcado como serializable.
+mscorlib
+   en System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(RuntimeType type)
+   en System.Runtime.Serialization.FormatterServices.<>c__DisplayClass9_0.<GetSerializableMembers>b__0(MemberHolder _)
+   en System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   en System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   en System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   en System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Object obj, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, ObjectWriter objectWriter, SerializationBinder binder)
+   en System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.Serialize(Object obj, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, ObjectWriter objectWriter, SerializationBinder binder)
+   en System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, Header[] inHeaders, __BinaryWriter serWriter, Boolean fCheck)
+   en System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers, Boolean fCheck)
+   en System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Header[] headers)
+   en System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph)
+   en ReneUtiles.Archivos.saveObject(String url, Object ob) en d:\_Cosas\Programacion\Proyectos\C#\ReneUtiles\ReneUtiles\ReneUtiles\Archivos.cs:línea 388
+   en ReneUtiles.VisualBasico.Clases.Administrador.SistemaEA`1.crearEA() en d:\_Cosas\Programacion\Proyectos\C#\ReneVisualBasico\ReneUtiles\VisualBasico\Clases\Administrador\SistemaEA.cs:línea 38
+   en ReneUtiles.VisualBasico.Clases.Administrador.SistemaEA`1.cargarEA() en d:\_Cosas\Programacion\Proyectos\C#\ReneVisualBasico\ReneUtiles\VisualBasico\Clases\Administrador\SistemaEA.cs:línea 53
+------------------------------
+9/1/2022 15:43:13
+El proceso no puede obtener acceso al archivo 'D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\bin\Debug\EA_MoverNumero.leyenappea' porque está siendo utilizado en otro proceso.
+mscorlib
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   en ReneUtiles.Archivos.saveObject(String url, Object ob) en d:\_Cosas\Programacion\Proyectos\C#\ReneUtiles\ReneUtiles\ReneUtiles\Archivos.cs:línea 387
+   en ReneUtiles.VisualBasico.Clases.Administrador.SistemaEA`1.crearEA() en d:\_Cosas\Programacion\Proyectos\C#\ReneVisualBasico\ReneUtiles\VisualBasico\Clases\Administrador\SistemaEA.cs:línea 38
+   en ReneUtiles.VisualBasico.Clases.Administrador.SistemaEA`1.cargarEA() en d:\_Cosas\Programacion\Proyectos\C#\ReneVisualBasico\ReneUtiles\VisualBasico\Clases\Administrador\SistemaEA.cs:línea 57
+------------------------------
+9/1/2022 15:45:08
+Se llegó al final de la secuencia antes de terminar el análisis.
+mscorlib
+   en System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   en System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   en System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   en System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, IMethodCallMessage methodCallMessage)
+   en System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck)
+   en System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler)
+   en System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   en ReneUtiles.Archivos.readObject(String url) en d:\_Cosas\Programacion\Proyectos\C#\ReneUtiles\ReneUtiles\ReneUtiles\Archivos.cs:línea 394
+   en ReneUtiles.VisualBasico.Clases.Administrador.SistemaEA`1.cargarEA() en d:\_Cosas\Programacion\Proyectos\C#\ReneVisualBasico\ReneUtiles\VisualBasico\Clases\Administrador\SistemaEA.cs:línea 49
+------------------------------
+9/1/2022 15:45:10
+El proceso no puede obtener acceso al archivo 'D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\bin\Debug\EA_MoverNumero.leyenappea' porque está siendo utilizado en otro proceso.
+mscorlib
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   en ReneUtiles.Archivos.saveObject(String url, Object ob) en d:\_Cosas\Programacion\Proyectos\C#\ReneUtiles\ReneUtiles\ReneUtiles\Archivos.cs:línea 387
+   en ReneUtiles.VisualBasico.Clases.Administrador.SistemaEA`1.crearEA() en d:\_Cosas\Programacion\Proyectos\C#\ReneVisualBasico\ReneUtiles\VisualBasico\Clases\Administrador\SistemaEA.cs:línea 38
+   en ReneUtiles.VisualBasico.Clases.Administrador.SistemaEA`1.cargarEA() en d:\_Cosas\Programacion\Proyectos\C#\ReneVisualBasico\ReneUtiles\VisualBasico\Clases\Administrador\SistemaEA.cs:línea 57

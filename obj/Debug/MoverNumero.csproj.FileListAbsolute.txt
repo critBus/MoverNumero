@@ -1,0 +1,12 @@
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\obj\Debug\MoverNumero.csprojResolveAssemblyReference.cache
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\obj\Debug\MoverNumero.MainForm.resources
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\obj\Debug\MoverNumero.csproj.GenerateResource.Cache
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\bin\Debug\MoverNumero.exe.config
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\bin\Debug\MoverNumero.exe
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\bin\Debug\MoverNumero.pdb
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\bin\Debug\ReneUtiles.dll
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\bin\Debug\ReneVisualBasico.dll
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\bin\Debug\ReneUtiles.pdb
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\bin\Debug\ReneVisualBasico.pdb
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\obj\Debug\MoverNumero.exe
+D:\_Cosas\Programacion\Proyectos\C#\MoverNumero\obj\Debug\MoverNumero.pdb
